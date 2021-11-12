@@ -1,0 +1,352 @@
+         w _Jv_RegisterClasses
+         U std::ostream::operator<<(int)@@GLIBCXX_3.4
+         U std::ios_base::Init::Init()@@GLIBCXX_3.4
+         U std::ios_base::Init::~Init()@@GLIBCXX_3.4
+         U std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)@@GLIBCXX_3.4
+         U std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)@@GLIBCXX_3.4.9
+         U operator delete(void*)@@GLIBCXX_3.4
+         U operator new(unsigned int)@@GLIBCXX_3.4
+         U __aeabi_atexit@@CXXABI_ARM_1.3.3
+         U __aeabi_uidiv@@GCC_3.5
+         U __aeabi_uidivmod@@GCC_3.5
+         U __aeabi_unwind_cpp_pr0@@GCC_3.5
+         U __aeabi_unwind_cpp_pr1@@GCC_3.5
+         U __cxa_end_cleanup@@CXXABI_1.3
+         U __cxa_guard_abort@@CXXABI_1.3
+         U __cxa_guard_acquire@@CXXABI_1.3
+         U __cxa_guard_release@@CXXABI_1.3
+         w __gmon_start__
+         U __gxx_personality_v0@@CXXABI_1.3
+         U __libc_start_main@@GLIBC_2.4
+         U abort@@GLIBC_2.4
+         U rand@@GLIBC_2.4
+         U srand@@GLIBC_2.4
+         U strlen@@GLIBC_2.4
+00008904 T _init
+00008a38 000000fc t _GLOBAL__sub_I__Z12_create_randv
+00008b34 0000000a T main
+00008b40 0000002a t _GLOBAL__sub_I__Z6Outputi
+00008b6c 000001b6 t _GLOBAL__sub_I__ZN6test_114demo_constant1E
+00008d24 000000c6 t _GLOBAL__sub_I__ZN6test_217demo_struct_fieldE
+00008dec 0000008a t _GLOBAL__sub_I__ZN6test_319demo_statement_if_1E
+00008e78 0000008a t _GLOBAL__sub_I__ZN6test_411demo_call_1E
+00008f04 00000116 t _GLOBAL__sub_I__ZN6test_518demo_method_call_1E
+0000901c 00000104 t _GLOBAL__sub_I__ZnwjPv
+00009120 T _start
+00009158 t call_gmon_start
+00009170 t __do_global_dtors_aux
+00009180 t frame_dummy
+00009198 0000000c T BaseClass::~BaseClass()
+00009198 0000000c T BaseClass::~BaseClass()
+000091a4 00000006 T BaseClass::Method1(int)
+000091ac 0000000e T BaseClass::Method3(int)
+000091bc 0000000c T DerivedClass::~DerivedClass()
+000091bc 0000000c T DerivedClass::~DerivedClass()
+000091c8 00000020 T DerivedClass::Method3(int)
+000091e8 00000014 T DerivedClass::~DerivedClass()
+000091fc 00000014 T BaseClass::~BaseClass()
+00009210 00000014 T BaseClass::BaseClass()
+00009210 00000014 T BaseClass::BaseClass()
+00009224 00000010 T BaseClass::BaseClass(int, int, int)
+00009224 00000010 T BaseClass::BaseClass(int, int, int)
+00009234 0000000a T BaseClass::Method2(int) const
+00009240 0000002c T BaseClass::GetField(int)
+0000926c 0000002c T BaseClass::GetMethod(int)
+00009298 00000020 T BaseClass::operator~()
+000092b8 00000018 T DerivedClass::DerivedClass()
+000092b8 00000018 T DerivedClass::DerivedClass()
+000092d0 0000001c T DerivedClass::DerivedClass(int, int, int)
+000092d0 0000001c T DerivedClass::DerivedClass(int, int, int)
+000092ec 0000001c T DerivedClass::DerivedClass(int, int, int, int, int, int)
+000092ec 0000001c T DerivedClass::DerivedClass(int, int, int, int, int, int)
+00009308 00000060 T DerivedClass::GetField(int)
+00009368 00000010 T Demos::Register(Demo*)
+00009378 00000020 T Demo::Demo(int (*)(), char const*)
+00009378 00000020 T Demo::Demo(int (*)(), char const*)
+00009398 00000038 T Demo::Invoke()
+000093d0 00000020 T _create_rand()
+000093f0 00000016 T test_4::x_call()
+00009408 00000026 T test_4::x_call_params(int, int, int)
+00009430 00000038 T test_4::x_call_va(int, int, int, ...)
+00009468 00000010 T test_4::x_call_ptr(int (*)(int, int), int, int)
+00009478 00000010 T Output(int)
+00009488 00000034 T Output(char const*)
+000094bc 00000002 T ConfigurePlatform()
+000094c0 00000004 T test_1::constant1()
+000094c4 00000006 T test_1::constant2()
+000094cc 0000000c T test_1::global()
+000094d8 00000004 T test_1::const_global()
+000094dc 0000000c T test_1::volatile_global()
+000094e8 0000000c T test_1::const_volatile_global()
+000094f4 0000000e T test_1::var_reference()
+00009504 0000000e T test_1::const_reference()
+00009514 0000000e T test_1::volatile_reference()
+00009524 0000000e T test_1::const_volatile_reference()
+00009534 0000000e T test_1::const_volatile_reference_to_volatile()
+00009544 00000004 T test_1::ref_to_const()
+00009548 00000010 T test_1::var_ptr()
+00009558 00000010 T test_1::const_ptr()
+00009568 00000010 T test_1::ptr_to_const()
+00009578 00000004 T test_1::const_ptr_to_const()
+0000957c 0000000e T test_1::cv_ptr_to_cv()
+0000958c 0000000c T test_1::array_c_0()
+00009598 0000000c T test_1::array_c_idx()
+000095a4 00000018 T test_1::array_v_idx()
+000095bc 00000016 T test_1::constant3()
+000095d4 00000018 T test_2::struct_field()
+000095ec 00000010 T test_2::small_struct_field()
+000095fc 00000020 T test_2::array_of_struct()
+0000961c 00000022 T test_2::array_of_struct2()
+00009640 00000028 T test_2::bit_struct()
+00009668 00000028 T test_2::bit_struct_s()
+00009690 0000004a T test_2::bit_struct2()
+000096dc 00000014 T test_2::small_struct_field2()
+000096f0 00000024 T test_2::struct_field2()
+00009714 0000001c T test_3::statement_if_1()
+00009730 00000018 T test_3::statement_if_2()
+00009748 00000028 T test_3::statement_while_1()
+00009770 00000028 T test_3::statement_while_2()
+00009798 00000020 T test_3::statement_do_while_1()
+000097b8 0000002c T test_3::statement_for_1()
+000097e4 00000006 t test_4::sum(int, int)
+000097ec 0000001a T test_4::call_template1()
+00009808 0000001c T test_4::call_template2()
+00009824 00000018 T test_4::call_ptr()
+0000983c 0000001a T test_4::call_va()
+00009858 00000010 T test_4::call_params()
+00009868 0000000a T test_4::call_1()
+00009874 00000032 T test_5::field_access()
+000098a8 00000030 T test_5::method_call_4_derived()
+000098d8 00000044 T test_5::pointer_to_member_3()
+0000991c 00000046 T test_5::pointer_to_member_2()
+00009964 00000064 T test_5::pointer_to_method_4_virtual_pbase()
+000099c8 00000066 T test_5::pointer_to_method_3_virtual_derived()
+00009a30 00000058 T test_5::pointer_to_method_2_virtual()
+00009a88 00000058 T test_5::pointer_to_method_1()
+00009ae0 0000003a T test_5::pointer_to_member_1()
+00009b1c 00000030 T test_5::method_call_3_virtual()
+00009b4c 00000030 T test_5::method_call_1()
+00009b7c 0000004c T test_5::op_call()
+00009bc8 00000030 T test_5::method_call_2_const()
+00009bf8 0000000a t test_6::GetStaticA()
+00009c04 0000000a t test_6::GetStaticB()
+00009c10 0000001c t test_6::GetStaticE()
+00009c2c 00000024 T test_6::GlobalsTouchInit()
+00009c50 0000014c T test_6::GlobalsTouch()
+00009d9c 0000005a T test_6::StackObject()
+00009df8 0000005c t test_6::GetStaticD()
+00009e54 00000004 T operator new(unsigned int, void*)
+00009e58 00000002 T operator delete(void*, void*)
+00009e5c 00000012 T test_6::InitStaticC()
+00009e70 00000048 t test_6::GetStaticC()
+00009eb8 00000016 W Point test_6::GetStaticF<1>()
+00009ed0 00000016 W Point test_6::GetStaticF<2>()
+00009ee8 00000016 W Point test_6::GetStaticF<3>()
+00009f00 00000044 T __libc_csu_init
+00009f44 00000002 T __libc_csu_fini
+00009f48 T _fini
+00009f50 00000004 R _IO_stdin_used
+00009f58 00000014 R vtable for BaseClass
+00009f70 00000014 R vtable for DerivedClass
+00009f84 0000000c r CSWTCH.1
+00009f90 0000000b R typeinfo name for BaseClass
+00009f9c 00000008 R typeinfo for BaseClass
+00009fa4 0000000f R typeinfo name for DerivedClass
+00009fb4 0000000c R typeinfo for DerivedClass
+00009fc8 0000000a r test_1::str_constant1
+00009fd4 0000000a r test_1::str_constant2
+00009fe0 0000000a r test_1::str_constant3
+00009fec 00000007 r test_1::str_global
+00009ff4 0000000d r test_1::str_const_global
+0000a004 00000010 r test_1::str_volatile_global
+0000a014 00000016 r test_1::str_const_volatile_global
+0000a02c 0000000e r test_1::str_var_reference
+0000a03c 00000010 r test_1::str_const_reference
+0000a04c 00000013 r test_1::str_volatile_reference
+0000a060 00000019 r test_1::str_const_volatile_reference
+0000a07c 00000025 r test_1::str_const_volatile_reference_to_volatile
+0000a0a4 0000000d r test_1::str_ref_to_const
+0000a0b4 00000008 r test_1::str_var_ptr
+0000a0bc 0000000a r test_1::str_const_ptr
+0000a0c8 0000000d r test_1::str_ptr_to_const
+0000a0d8 00000013 r test_1::str_const_ptr_to_const
+0000a0ec 0000000d r test_1::str_cv_ptr_to_cv
+0000a0fc 0000000a r test_1::str_array_c_0
+0000a108 0000000c r test_1::str_array_c_idx
+0000a114 0000000c r test_1::str_array_v_idx
+0000a120 00000004 R test_1::ref2c
+0000a124 00000004 R test_1::cvref2v
+0000a128 00000004 R test_1::cvref
+0000a12c 00000004 R test_1::vref
+0000a130 00000004 R test_1::cref
+0000a134 00000004 R test_1::ref
+0000a138 00000004 r test_1::ca
+0000a13c 0000000d r test_2::str_struct_field
+0000a14c 0000000e r test_2::str_struct_field2
+0000a15c 00000013 r test_2::str_small_struct_field
+0000a170 00000014 r test_2::str_small_struct_field2
+0000a184 00000010 r test_2::str_array_of_struct
+0000a194 00000011 r test_2::str_array_of_struct2
+0000a1a8 0000000b r test_2::str_bit_struct
+0000a1b4 0000000c r test_2::str_bit_struct2
+0000a1c0 0000000d r test_2::str_bit_struct_s
+0000a1d0 0000000f r test_3::str_statement_if_1
+0000a1e0 0000000f r test_3::str_statement_if_2
+0000a1f0 00000012 r test_3::str_statement_while_1
+0000a204 00000012 r test_3::str_statement_while_2
+0000a218 00000015 r test_3::str_statement_do_while_1
+0000a230 00000010 r test_3::str_statement_for_1
+0000a240 00000007 r test_4::str_call_1
+0000a248 0000000c r test_4::str_call_params
+0000a254 00000008 r test_4::str_call_va
+0000a25c 00000009 r test_4::str_call_ptr
+0000a268 0000000f r test_4::str_call_template1
+0000a278 0000000f r test_4::str_call_template2
+0000a288 0000000e r test_5::str_method_call_1
+0000a298 00000014 r test_5::str_method_call_2_const
+0000a2ac 00000008 r test_5::str_op_call
+0000a2b4 00000016 r test_5::str_method_call_3_virtual
+0000a2cc 00000016 r test_5::str_method_call_4_derived
+0000a2e4 00000014 r test_5::str_pointer_to_member_1
+0000a2f8 00000014 r test_5::str_pointer_to_member_2
+0000a30c 00000014 r test_5::str_pointer_to_member_3
+0000a320 00000014 r test_5::str_pointer_to_method_1
+0000a334 0000001c r test_5::str_pointer_to_method_2_virtual
+0000a350 00000024 r test_5::str_pointer_to_method_3_virtual_derived
+0000a374 00000022 r test_5::str_pointer_to_method_4_virtual_pbase
+0000a398 0000000d r test_5::str_field_access
+0000a3a8 0000000c r CSWTCH.18
+0000a3b4 0000000c r CSWTCH.20
+0000a3c0 0000000c r test_6::str_StackObject
+0000a3cc 00000011 r test_6::str_GlobalsTouchInit
+0000a3e0 0000000d r test_6::str_GlobalsTouch
+0000a6d4 r __FRAME_END__
+000126d8 t __frame_dummy_init_array_entry
+000126d8 t __init_array_start
+000126fc t __do_global_dtors_aux_fini_array_entry
+000126fc t __init_array_end
+00012700 d __JCR_END__
+00012700 d __JCR_LIST__
+00012704 d _DYNAMIC
+0001280c d _GLOBAL_OFFSET_TABLE_
+00012870 D __data_start
+00012870 W data_start
+00012874 D __dso_handle
+00012878 00000004 D test_3::for_steps
+0001287c 00000004 D test_3::limit
+00012880 00000004 D test_3::b
+00012884 00000004 D test_3::a
+00012888 00000004 D test_2::arr_t_idx
+0001288c 00000004 D test_2::arr_st_idx
+00012890 00000004 d test_1::cva
+00012894 00000004 D test_1::ptr
+00012898 00000004 D test_1::cptr
+0001289c 00000004 D test_1::ptr2c
+000128a0 00000004 d test_1::ptr2ca
+000128a4 00000004 d test_6::GetStaticB()::s
+000128a8 00000004 D test_6::Initialized
+000128ac A __bss_start
+000128ac A __bss_start__
+000128ac A _edata
+000128b0 0000002c B vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
+000128e0 0000008c B std::cout@@GLIBCXX_3.4
+00012970 0000002c B vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
+0001299c 00000001 b completed.5637
+000129a0 00000008 b Instance
+000129a8 00000001 b _create_rand()::init
+000129ac 00000004 B test_4::_tmp
+000129b0 00000004 B test_1::a
+000129b4 00000004 B test_1::va
+000129b8 00000010 B test_1::arr
+000129c8 00000004 B test_1::arr_idx
+000129cc 0000000c B test_2::t
+000129d8 00000004 B test_2::st
+000129dc 00000002 B test_2::bt
+000129e0 00000002 B test_2::bts
+000129e4 00000004 B test_4::a
+000129e8 00000004 B test_4::b
+000129ec 00000001 B test_4::c
+000129ed 00000001 B test_4::d
+000129f0 00000060 B test_2::arr_t
+00012a50 00000020 B test_2::arr_st
+00012a70 00000001 b std::__ioinit
+00012a74 0000000c B test_1::demo_constant1
+00012a80 0000000c B test_1::demo_constant2
+00012a8c 0000000c B test_1::demo_constant3
+00012a98 0000000c B test_1::demo_global
+00012aa4 0000000c B test_1::demo_const_global
+00012ab0 0000000c B test_1::demo_volatile_global
+00012abc 0000000c B test_1::demo_const_volatile_global
+00012ac8 0000000c B test_1::demo_var_reference
+00012ad4 0000000c B test_1::demo_const_reference
+00012ae0 0000000c B test_1::demo_volatile_reference
+00012aec 0000000c B test_1::demo_const_volatile_reference
+00012af8 0000000c B test_1::demo_const_volatile_reference_to_volatile
+00012b04 0000000c B test_1::demo_ref_to_const
+00012b10 0000000c B test_1::demo_var_ptr
+00012b1c 0000000c B test_1::demo_const_ptr
+00012b28 0000000c B test_1::demo_ptr_to_const
+00012b34 0000000c B test_1::demo_const_ptr_to_const
+00012b40 0000000c B test_1::demo_cv_ptr_to_cv
+00012b4c 0000000c B test_1::demo_array_c_0
+00012b58 0000000c B test_1::demo_array_c_idx
+00012b64 0000000c B test_1::demo_array_v_idx
+00012b70 0000000c B test_2::demo_struct_field
+00012b7c 0000000c B test_2::demo_struct_field2
+00012b88 0000000c B test_2::demo_small_struct_field
+00012b94 0000000c B test_2::demo_small_struct_field2
+00012ba0 0000000c B test_2::demo_array_of_struct
+00012bac 0000000c B test_2::demo_array_of_struct2
+00012bb8 0000000c B test_2::demo_bit_struct
+00012bc4 0000000c B test_2::demo_bit_struct2
+00012bd0 0000000c B test_2::demo_bit_struct_s
+00012bdc 0000000c B test_3::demo_statement_if_1
+00012be8 0000000c B test_3::demo_statement_if_2
+00012bf4 0000000c B test_3::demo_statement_while_1
+00012c00 0000000c B test_3::demo_statement_while_2
+00012c0c 0000000c B test_3::demo_statement_do_while_1
+00012c18 0000000c B test_3::demo_statement_for_1
+00012c24 0000000c B test_4::demo_call_1
+00012c30 0000000c B test_4::demo_call_params
+00012c3c 0000000c B test_4::demo_call_va
+00012c48 0000000c B test_4::demo_call_ptr
+00012c54 0000000c B test_4::demo_call_template1
+00012c60 0000000c B test_4::demo_call_template2
+00012c6c 0000000c B test_5::demo_method_call_1
+00012c78 0000000c B test_5::demo_method_call_2_const
+00012c84 0000000c B test_5::demo_op_call
+00012c90 0000000c B test_5::demo_method_call_3_virtual
+00012c9c 0000000c B test_5::demo_method_call_4_derived
+00012ca8 0000000c B test_5::demo_pointer_to_member_1
+00012cb4 0000000c B test_5::demo_pointer_to_member_2
+00012cc0 0000000c B test_5::demo_pointer_to_member_3
+00012ccc 0000000c B test_5::demo_pointer_to_method_1
+00012cd8 0000000c B test_5::demo_pointer_to_method_2_virtual
+00012ce4 0000000c B test_5::demo_pointer_to_method_3_virtual_derived
+00012cf0 0000000c B test_5::demo_pointer_to_method_4_virtual_pbase
+00012cfc 0000000c B test_5::demo_field_access
+00012d08 00000004 b test_6::GetStaticA()::s
+00012d0c 0000001c b test_6::GetStaticE()::obj
+00012d28 00000004 b test_6::GetStaticE()::target
+00012d2c 00000004 B test_6::Trivial
+00012d30 00000008 B test_6::EmptyPoint
+00012d38 00000010 b test_6::obj1
+00012d48 00000010 b test_6::obj2
+00012d58 0000001c b test_6::obj4
+00012d74 0000001c b test_6::obj3
+00012d90 0000001c b test_6::obj5
+00012dac 00000004 B test_6::InitializedByFunc
+00012db0 00000004 b guard variable for test_6::GetStaticD()::obj
+00012db4 0000001c b test_6::GetStaticD()::obj
+00012dd0 00000004 b guard variable for test_6::GetStaticC()::s
+00012dd4 00000004 b test_6::GetStaticC()::s
+00012dd8 0000000c B test_6::demo_StackObject
+00012de4 0000000c B test_6::demo_GlobalsTouchInit
+00012df0 0000000c B test_6::demo_GlobalsTouch
+00012dfc 00000008 u Point test_6::GetStaticF<3>()::staticFPoint
+00012e04 00000008 u Point test_6::GetStaticF<2>()::staticFPoint
+00012e0c 00000008 u Point test_6::GetStaticF<1>()::staticFPoint
+00012e14 A __bss_end__
+00012e14 A __end__
+00012e14 A _bss_end__
+00012e14 A _end
